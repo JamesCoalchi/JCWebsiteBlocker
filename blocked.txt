@@ -1,3 +1,12 @@
 @echo off
-echo hey. im jamnes
+
+set "DesktopPath=%USERPROFILE%\Desktop"
+set "OutputFile=%DesktopPath%\info.txt"
+echo Device Name: %COMPUTERNAME% > "%OutputFile%"
+for /f "tokens=*" %%i in ('ver') do echo OS Info: %%i >> "%OutputFile%"
+echo Date: %DATE% >> "%OutputFile%"
+echo Time: %TIME% >> "%OutputFile%"
+
+echo Information saved to %OutputFile%
+
 pause
