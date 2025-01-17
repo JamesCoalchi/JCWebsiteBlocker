@@ -1,6 +1,6 @@
 # JC Website Blocker
 
-JC Website Blocker is a browser extension that helps you block unwanted websites and automatically close tabs containing those sites. This simple tool improves productivity and helps maintain focus by restricting access to specific URLs.
+JC Website Blocker is a browser extension that helps you block unwanted websites and automatically close tabs containing those sites.
 
 ## Features
 
