@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JC Website Blocker</title>
+    <style>
+      body { width: 300px; padding: 10px; }
+      input { width: 100%; }
+      button { width: 100%; }
+      ul { list-style-type: none; padding: 0; }
+      li { display: flex; justify-content: space-between; margin-bottom: 10px; }
+      .remove-btn {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 3px 8px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>JC Website Blocker</h3>
+    <input type="text" id="websiteUrl" placeholder="Enter website URL" />
+    <button id="addWebsite">Add to Block List</button>
+    <ul id="blockedWebsitesList"></ul>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
