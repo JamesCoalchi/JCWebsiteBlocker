@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "JC Website Blocker,
+  "name": "JC Website Blocker",
   "version": "1.0",
   "description": "Blocks user-defined websites.",
   "permissions": ["storage", "tabs"],
