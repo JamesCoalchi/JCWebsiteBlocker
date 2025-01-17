@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AntiPP Website Blocker",
+  "name": "JC Website Blocker",
   "version": "1.0",
   "description": "Block specific websites and automatically close tabs with blocked URLs.",
   "permissions": [
