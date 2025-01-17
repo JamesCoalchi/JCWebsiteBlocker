@@ -21,6 +21,9 @@ JC Website Blocker is a browser extension that helps you block unwanted websites
 2. Enter the URL of the website you want to block in the input field.
    - Ensure you include the protocol (e.g., `https://` or `http://`).
    - Exclude subdomains (e.g., use `https://youtube.com` instead of `https://www.youtube.com`).
+   - Do not include anything after the URL. For example:
+     - `https://youtube.com` is correct.
+     - `https://www.youtube.com/watch?v=u6-9aAF5adsa14&t=689s` is incorrect.
 3. Click the **Add to Blocked List** button to save the URL to your block list.
 
 The extension will now monitor and close any tabs containing the specified websites.
